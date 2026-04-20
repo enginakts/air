@@ -1,0 +1,12 @@
+# YOLO11/12 .pt dosyaları C3k2 vb. katmanlar içerir; 8.2.x çoğu ortamda AttributeError verir.
+ultralytics>=8.3.0
+# NumPy 1.x ile uyum için üst sınır (4.13+ genelde numpy>=2 ister)
+opencv-python>=4.8.0,<4.10.0
+deep-sort-realtime>=1.3.2
+# NumPy 2.x ile bazı wheel'ler (matplotlib/ultralytics zinciri) çakışabiliyor; 1.x güvenli aralık
+numpy>=1.24.0,<2.0.0
+# UI için iki alternatif:
+# - PySide6: modern Qt (büyük paket; indirmesi uzun sürebilir)
+# - PyQt5: daha küçük/kolay kurulum olabilir
+PyQt5>=5.15.10
+pyserial>=3.5

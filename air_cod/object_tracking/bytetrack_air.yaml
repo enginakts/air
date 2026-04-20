@@ -1,0 +1,10 @@
+# Sabit kamera; hızlı hareket için tampon ve eşik ayarı.
+# Ultralytics ByteTrack
+
+tracker_type: bytetrack
+track_high_thresh: 0.20
+track_low_thresh: 0.06
+new_track_thresh: 0.20
+track_buffer: 72
+match_thresh: 0.66
+fuse_score: true
